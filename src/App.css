@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: rgb(243, 240, 232);
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
   font-weight: 500;
   font-family: "Cormorant", serif;
   text-rendering: optimizeLegibility;
-  color: #222;
+  color: #000;
   font-size: 5em;
 }
 
@@ -47,6 +47,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.App-icon-link {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
 }
 
 @keyframes App-logo-spin {
