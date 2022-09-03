@@ -22,7 +22,9 @@ function App() {
           <IconButton target='_blank' href='https://www.youtube.com/channel/UC8zVlsl3olsvZrFF8P1vGkw'>
             <YouTubeIcon />
           </IconButton>
-          <img src='http://www.stickpng.com/img/icons-logos-emojis/tech-companies/arduino-logo.png' alt="logo" height='30'/>
+          <a target='_blank' href='https://create.arduino.cc/projecthub/Pablerdo/wireless-laser-gate-timing-system-for-track-and-field-ba8cd9?ref=search&ref_id=track%20and%20field&offset=2' >
+            <img src={require('./assets/arduino_logo.png')} alt="logo" height='20' />
+          </a>
           <IconButton target='_blank' href='https://twitter.com/Pablerdo'>
             <TwitterIcon />
           </IconButton>
