@@ -14,18 +14,39 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(243, 240, 232);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.App-title {
+  font-weight: 500;
+  font-family: "Cormorant", serif;
+  text-rendering: optimizeLegibility;
+  color: #222;
+  font-size: 5em;
+}
+
+.App-text {
+  font-weight: 500;
+  font-family: "Cormorant", serif;
+  text-rendering: optimizeLegibility;
+  color: #222;
+  font-size: 1.5em;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-icon-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @keyframes App-logo-spin {
