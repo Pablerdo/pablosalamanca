@@ -39,7 +39,8 @@
 }
 
 .App-link {
-  color: #61dafb;
+  text-decoration: none;
+  color: #222;
 }
 
 .App-icon-bar {

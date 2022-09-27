@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import pdf from './assets/pablo_salamanca_resume_18_08_2022.pdf';
 
 function App() {
   return (
@@ -10,7 +11,11 @@ function App() {
       <header className="App-header">
         <h1 className="App-title">Pablo Salamanca</h1>
         <h4 className="App-text">Computer Science at the University of Pennsylvania</h4>
-        <h4 className="App-text">WIP</h4>
+        <h4 className="App-text">
+          <a className="App-link" href={pdf} target="_blank" rel="noreferrer" >
+            Resume
+          </a>
+        </h4>
         <div className="App-icon-bar">
           <a className='App-icon-link' target='_blank' href='https://github.com/Pablerdo' rel='noreferrer'>
             <GitHubIcon />
