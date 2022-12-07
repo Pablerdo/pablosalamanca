@@ -1,5 +1,8 @@
 .App {
+  position: absolute;
   text-align: center;
+  left: 0;
+  right: 0;
 }
 
 .App-logo {
@@ -14,7 +17,6 @@
 }
 
 .App-header {
-  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +26,7 @@
 
 .App-title {
   font-weight: 500;
-  font-family: "Cormorant", serif;
+  font-family: "VarelaRound-Regular", serif;
   text-rendering: optimizeLegibility;
   color: #000;
   font-size: 5em;
@@ -32,15 +34,15 @@
 
 .App-text {
   font-weight: 500;
-  font-family: "Cormorant", serif;
+  font-family: "VarelaRound-Regular", serif;
   text-rendering: optimizeLegibility;
-  color: #222;
+  color: #000;
   font-size: 1.5em;
 }
 
 .App-link {
   text-decoration: none;
-  color: #222;
+  color: #000;
 }
 
 .App-icon-bar {
@@ -52,7 +54,7 @@
 
 .App-icon-link {
   text-decoration: none;
-  color: inherit;
+  color: #000;
   padding: 10px;
 }
 
@@ -64,3 +66,9 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper {
+  position: relative;
+}
+
+
