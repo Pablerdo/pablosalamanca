@@ -40,6 +40,9 @@ function App() {
               <a className='App-icon-link' target='_blank' href='https://create.arduino.cc/projecthub/Pablerdo/wireless-laser-gate-timing-system-for-track-and-field-ba8cd9?ref=search&ref_id=track%20and%20field&offset=2' rel='noreferrer'>
                 <img src={require('./assets/arduino_logo.png')} alt="logo" height='20' />
               </a>
+              <a className='App-icon-link' target='_blank' href='https://www.hackster.io/Pablerdo/wireless-laser-gate-timing-system-for-track-and-field-ba8cd9' rel='noreferrer'>
+                <img src={require('./assets/hackster_logo.png')} alt="logo" height='20' />
+              </a>
               <a className='App-icon-link' target='_blank' href='https://twitter.com/pablosalaman' rel='noreferrer'>
                 <TwitterIcon />
               </a>
