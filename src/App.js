@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import pdf from './assets/resume.pdf';
+import pdf from './assets/Pablo_Salamanca_Rising_Junior.pdf';
 import ParticleBackground from "./ParticleBackground";
 
 function App() {
