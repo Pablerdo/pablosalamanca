@@ -29,22 +29,22 @@ function App() {
             </h4>
             <div className="App-icon-bar">
               <a className='App-icon-link' target='_blank' href='https://github.com/Pablerdo' rel='noreferrer'>
-                <GitHubIcon />
+                <GitHubIcon fontSize={"large"} />
               </a>
               <a className='App-icon-link' target='_blank' href='https://www.linkedin.com/in/pablo-salamanca-97a848134/' rel='noreferrer'>
-                <LinkedInIcon />
+                <LinkedInIcon fontSize={"large"} />
               </a>
               <a className="App-icon-link" target='_blank' href='https://www.youtube.com/channel/UC8zVlsl3olsvZrFF8P1vGkw' rel='noreferrer'>
-                <YouTubeIcon />
+                <YouTubeIcon fontSize={"large"} />
               </a>
               <a className='App-icon-link' target='_blank' href='https://create.arduino.cc/projecthub/Pablerdo/wireless-laser-gate-timing-system-for-track-and-field-ba8cd9?ref=search&ref_id=track%20and%20field&offset=2' rel='noreferrer'>
-                <img src={require('./assets/arduino_logo.png')} alt="logo" height='20' />
+                <img src={require('./assets/arduino_logo.png')} alt="logo" height='28' />
               </a>
               <a className='App-icon-link' target='_blank' href='https://www.hackster.io/Pablerdo/wireless-laser-gate-timing-system-for-track-and-field-ba8cd9' rel='noreferrer'>
-                <img src={require('./assets/hackster_logo.png')} alt="logo" height='20' />
+                <img src={require('./assets/hackster_logo.png')} alt="logo" height='28' />
               </a>
               <a className='App-icon-link' target='_blank' href='https://twitter.com/pablosalaman' rel='noreferrer'>
-                <TwitterIcon />
+                <TwitterIcon fontSize={"large"} />
               </a>
             </div>
           </header>
