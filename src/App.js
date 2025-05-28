@@ -20,6 +20,7 @@ function App() {
     return (
         <div className="App">
           <header className="App-header">
+            <img src={require('./assets/Pablo_HSGrad.jpeg')} alt="Pablo Salamanca" className="profile-image" />
             <h1 className="App-title">Pablo Salamanca</h1>
             <h4 className="App-text">Computer Science and Mathematics @ University of Pennsylvania</h4>
             <h4 className="App-text">
