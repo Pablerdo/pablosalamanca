@@ -1,0 +1,27 @@
+.Site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 28px 0 0 0;
+}
+
+.Site-nav-link {
+  font-family: "Georgia", "Palatino Linotype", serif;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #555;
+  padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.Site-nav-link:hover {
+  color: #111;
+}
+
+.Site-nav-link.active {
+  color: #111;
+  border-bottom: 1px solid #111;
+}
