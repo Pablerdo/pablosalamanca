@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Pablo Salamanca — Resume</title>
+<style>
+  @page {
+    size: letter;
+    margin: 0.55in 0.6in;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 10.6pt;
+    line-height: 1.35;
+    color: #111;
+    background: #fff;
+  }
+
+  .page {
+    max-width: 8.3in;
+    margin: 0 auto;
+    padding: 0.4in 0.5in;
+  }
+
+  h1.name {
+    text-align: center;
+    font-size: 26pt;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+    letter-spacing: 0.02em;
+  }
+
+  .contact {
+    text-align: center;
+    font-size: 9.6pt;
+    margin: 0 0 14px 0;
+  }
+
+  h2.section {
+    font-size: 10.8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 1px solid #111;
+    padding-bottom: 2px;
+    margin: 14px 0 8px 0;
+  }
+
+  .entry {
+    margin-bottom: 7px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .row .left {
+    font-weight: 700;
+  }
+
+  .row .right {
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .subrow .left {
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .subrow .right {
+    font-style: italic;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  .meta-line {
+    font-size: 10.2pt;
+    margin: 1px 0 2px 0;
+  }
+
+  ul.bullets {
+    margin: 3px 0 0 0;
+    padding-left: 18px;
+  }
+
+  ul.bullets li {
+    margin: 1px 0;
+  }
+
+  .bullet-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    list-style: none;
+  }
+
+  .bullet-row .right {
+    font-style: italic;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .flag {
+    background: #ffef9f;
+  }
+
+  .no-print {
+    text-align: center;
+    margin: 18px 0 0 0;
+  }
+
+  .export-link {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #999;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 8pt;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .export-link:hover {
+    color: #555;
+  }
+
+  @media print {
+    .flag {
+      background: none;
+    }
+
+    .no-print {
+      display: none;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <h1 class="name">Pablo Salamanca</h1>
+    <div class="contact">
+      +1 (267) 273-4402 &nbsp;|&nbsp; pablosalamanca88@gmail.com &nbsp;|&nbsp; https://pablosalaman.ca
+    </div>
+
+    <h2 class="section">Professional Experience</h2>
+
+    <div class="entry">
+      <div class="row"><span class="left">Netflix</span><span class="right">Los Angeles, CA</span></div>
+      <div class="row subrow"><span class="left">Machine Learning Engineer</span><span class="right">July 2025 &ndash; Present</span></div>
+      <ul class="bullets">
+        <li>Recruited by Netflix research leadership based on senior undergraduate thesis work.</li>
+        <li>Published peer-reviewed research, including work presented at CVPR 2026.</li>
+        <li>Following Netflix's acquisition of InterPositive, I was brought on to lead the re-architecture of its ML inference system to work across CoreWeave and AWS GPU clusters.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row"><span class="left">Amazon</span><span class="right">Seattle, WA</span></div>
+      <div class="row subrow"><span class="left">Software Development Engineer Intern (Ads, Sponsored Brands Video)</span><span class="right">June 2024 &ndash; August 2024</span></div>
+      <ul class="bullets">
+        <li>Led the migration of a business-critical ad-creation service to native AWS.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row"><span class="left">Amazon</span><span class="right">Seattle, WA</span></div>
+      <div class="row subrow"><span class="left">Software Development Engineer Intern (Ads, Sponsored Brands Video)</span><span class="right">May 2023 &ndash; August 2023</span></div>
+      <ul class="bullets">
+        <li>Conducted research, development, and testing of Fast Fourier Transform-based blurriness detection algorithms using Python and OpenCV.</li>
+        <li>Created a new AWS Lambda-backed API deployed through CDK, bringing research algorithms into production. (API Gateway, Docker)</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row"><span class="left">Oliver Space</span><span class="right">San Francisco, CA</span></div>
+      <div class="row subrow"><span class="left">Software Engineering Intern</span><span class="right">May 2022 &ndash; August 2022</span></div>
+      <ul class="bullets">
+        <li>Developed internal tooling for customer experience.</li>
+        <li>Won internal hackathon by redeveloping website experience (React.js, Vue.js).</li>
+      </ul>
+    </div>
+
+    <h2 class="section">Publications</h2>
+
+    <div class="entry">
+      <ul class="bullets">
+        <li><em>Vista4D: Video Reshooting with 4D Point Clouds.</em> K.H. Lin, Z. Liu, P. Salamanca, et al. CVPR 2026.</li>
+        <li><em>DiffHDR: Re-Exposing LDR Videos with Video Diffusion Models.</em> Z. Yu, L. Ma, P. Salamanca, et al. arXiv, 2026.</li>
+      </ul>
+    </div>
+
+    <h2 class="section">Education</h2>
+
+    <div class="entry">
+      <div class="row"><span class="left">University of Pennsylvania</span><span class="right">Philadelphia, PA</span></div>
+      <div class="row subrow"><span class="left">Bachelor of Applied Science, Computer Science &mdash; Minor in Engineering Entrepreneurship</span><span class="right">August 2021 &ndash; July 2025</span></div>
+      <div class="meta-line">GPA: 3.7/4.0, Penn Quant Trading Club (Advanced Team)</div>
+    </div>
+
+    <div class="entry">
+      <div class="row"><span class="left">Andr&eacute;e English School</span><span class="right">Santiago, Chile</span></div>
+      <div class="row subrow"><span class="left">High School Diploma</span><span class="right"></span></div>
+      <div class="meta-line">GPA: 6.9/7.0</div>
+    </div>
+
+    <h2 class="section">Projects and Competitions</h2>
+
+    <div class="entry">
+      <div class="row"><span class="left">Zeptaframe Editor (based on Go-with-the-Flow paper)</span></div>
+      <ul class="bullets">
+        <li>Implemented state-of-the-art video generation model fine-tuning and video-captioning techniques, allowing video generation without text input.</li>
+        <li>Undergrad senior thesis project that led to a role at Netflix Eyeline Labs.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row"><span class="left">Robotics</span></div>
+      <div class="row subrow"><span class="left">Recruited by a joint team from top Chilean universities to compete in Tokyo twice.</span></div>
+      <ul class="bullets">
+        <li class="bullet-row"><span>2&times; Gold Medal, Competencia Rob&oacute;tica UTFSM</span><span class="right">Valpara&iacute;so, Chile</span></li>
+        <li class="bullet-row"><span>21st Place, All Japan Micromouse and Robotracer Contest</span><span class="right">Tokyo, Japan</span></li>
+        <li class="bullet-row"><span>57th Place, All Japan Micromouse and Robotracer Contest</span><span class="right">Tokyo, Japan</span></li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row"><span class="left">Trading Bot</span></div>
+      <ul class="bullets">
+        <li>Created a periodic portfolio rebalancer using Wharton Research Data Services, the TD Ameritrade API, and Python.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row"><span class="left">Open-Source Wireless Laser-Gate Track &amp; Field Timing System</span></div>
+      <ul class="bullets">
+        <li>Created an ultra-affordable wireless timing system for track &amp; field athletes and coaches. Published all code, PCB designs, and 3D designs for free on Hackster.io, reaching over 50,000 views across technical blogs.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row"><span class="left">Mathematics Olympiad</span></div>
+      <ul class="bullets">
+        <li>Gold Medal, National Mathematical Triathlon, Universidad San Sebasti&aacute;n.</li>
+      </ul>
+    </div>
+
+    <h2 class="section">Additional Skills</h2>
+    <ul class="bullets">
+      <li>Proficient in Python, Java, C++, JavaScript (React, Vue), PCB Design, Embedded Systems, 3D Modelling, Welding</li>
+      <li>Fluent in English and Spanish</li>
+    </ul>
+
+    <div class="no-print">
+      <button class="export-link" onclick="window.print()">download PDF</button>
+    </div>
+  </div>
+</body>
+</html>

@@ -4,7 +4,6 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import SchoolIcon from '@mui/icons-material/School';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import pdf from '../assets/Pablo_Salamanca_Rising_Senior.pdf';
 import profilePhoto from '../assets/chillaxedPablo.JPG';
 import Nav from '../components/Nav';
 
@@ -17,12 +16,17 @@ export default function Home() {
 
           <div className="Bio-row">
             <div className="Bio-left">
-              <h4 className="App-text">Video AI @ Netflix</h4>
-              <h4 className="App-text">Computer Science @ UPenn</h4>
-
               <p className="Bio-text">
-                I am passionate about multimodal AI, especially video.
-                I'm currently a machine learning engineer at Netflix, where I am now part of the InterPositive team following{' '}
+                I am a machine learning engineer at{' '}
+                <a
+                    className="Bio-inline-link"
+                    href="https://research.netflix.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                  Netflix
+                </a>
+                , where I work on video models. I am passionate about their applications in film, robotics, and media. Following{' '}
                 <a
                     className="Bio-inline-link"
                     href="https://www.inc.com/leila-sheridan/ben-affleck-just-sold-his-stealth-ai-startup-to-netflix-for-600-million-heres-what-it-actually-does/91315812"
@@ -31,13 +35,35 @@ export default function Home() {
                 >
                   Netflix's acquisition
                 </a>{' '}
-                of the company.
+                of InterPositive, I was brought on to be part of the team.
+              </p>
+
+              <p className="Bio-text">
+                Previously, I was an undergraduate in Computer Science at the{' '}
+                <a
+                    className="Bio-inline-link"
+                    href="https://www.upenn.edu"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                  University of Pennsylvania
+                </a>
+                , within the{' '}
+                <a
+                    className="Bio-inline-link"
+                    href="https://www.seas.upenn.edu"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                  School of Engineering and Applied Science
+                </a>
+                , with a minor in Engineering Entrepreneurship.
               </p>
 
               <div className="Button-row">
                 <a
                     className="Scholar-button"
-                    href={pdf}
+                    href="/resume.html"
                     target="_blank"
                     rel="noreferrer"
                 >
