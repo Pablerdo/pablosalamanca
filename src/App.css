@@ -15,15 +15,15 @@
 .Photos-container {
   width: 100%;
   box-sizing: border-box;
-  padding: 60px 24px 80px 24px;
+  padding: 48px 19.2px 64px 19.2px;
 }
 
 .Bio-container {
-  max-width: 1152px;
+  max-width: 921.6px;
 }
 
 .Photos-container {
-  max-width: 720px;
+  max-width: 576px;
 }
 
 .Bio-row {
@@ -31,7 +31,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 32px;
+  gap: 25.6px;
 }
 
 .Bio-left {
@@ -43,12 +43,12 @@
 }
 
 .profile-image-frame {
-  width: 468px;
+  width: 374.4px;
   aspect-ratio: 79 / 60;
   overflow: hidden;
   position: relative;
   flex-shrink: 0;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3.2px 11.2px rgba(0, 0, 0, 0.15);
 }
 
 .profile-image {
@@ -65,7 +65,7 @@
   text-rendering: optimizeLegibility;
   color: #111;
   font-size: 2.6em;
-  margin: 0 0 24px 0;
+  margin: 0 0 19.2px 0;
 }
 
 .Bio-text {
@@ -74,7 +74,7 @@
   color: #222;
   font-size: 1.2em;
   line-height: 1.75;
-  margin: 24px 0 32px 0;
+  margin: 19.2px 0 25.6px 0;
 }
 
 .Bio-inline-link {
@@ -87,13 +87,13 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 6px;
+  gap: 4.8px;
 }
 
 .App-icon-link {
   text-decoration: none;
   color: #333;
-  padding: 8px;
+  padding: 6.4px;
 }
 
 .App-icon-link:hover {
@@ -101,22 +101,22 @@
 }
 
 .Photos-grid {
-  margin-top: 28px;
+  margin-top: 22.4px;
   display: flex;
   flex-direction: column;
-  gap: 56px;
+  gap: 44.8px;
 }
 
 .Photos-item img {
   width: 100%;
   height: auto;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3.2px 11.2px rgba(0, 0, 0, 0.15);
   display: block;
 }
 
 .Photos-caption {
   font-family: "Lora", "Cambria", "Georgia", serif;
-  margin: 10px 0 0 0;
+  margin: 8px 0 0 0;
   color: #555;
   font-size: 1.2em;
   font-style: italic;
@@ -127,14 +127,14 @@
   .Bio-row {
     flex-direction: column-reverse;
     align-items: flex-start;
-    gap: 20px;
+    gap: 16px;
   }
 }
 
 .Papers-section {
   text-align: left;
-  margin-top: 48px;
-  padding-top: 32px;
+  margin-top: 38.4px;
+  padding-top: 25.6px;
   border-top: 1px solid #ddd;
 }
 
@@ -143,18 +143,18 @@
   font-weight: 500;
   color: #111;
   font-size: 1.9em;
-  margin: 0 0 20px 0;
+  margin: 0 0 16px 0;
 }
 
 .Paper-item {
-  margin-bottom: 18px;
+  margin-bottom: 14.4px;
 }
 
 .Paper-title-text {
   font-family: "Lora", "Cambria", "Georgia", serif;
   font-size: 1.2em;
   color: #111;
-  margin: 0 0 4px 0;
+  margin: 0 0 3.2px 0;
 }
 
 .Paper-meta {
@@ -167,15 +167,15 @@
 .Button-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  margin: 32px 0 12px 0;
+  gap: 9.6px;
+  margin: 25.6px 0 9.6px 0;
 }
 
 .Scholar-button {
   display: inline-flex;
   align-items: center;
-  gap: 4.4px;
-  padding: 6.6px 14.3px;
+  gap: 3.52px;
+  padding: 5.28px 11.44px;
   border: 1px solid #333;
   border-radius: 999px;
   color: #333;
@@ -185,8 +185,8 @@
 }
 
 .Scholar-button svg {
-  width: 15.4px;
-  height: 15.4px;
+  width: 12.32px;
+  height: 12.32px;
 }
 
 .Scholar-button:hover {

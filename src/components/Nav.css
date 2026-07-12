@@ -1,8 +1,8 @@
 .Site-nav {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  padding: 28px 0 0 0;
+  gap: 32px;
+  padding: 22.4px 0 0 0;
 }
 
 .Site-nav-link {
@@ -12,7 +12,7 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #555;
-  padding-bottom: 4px;
+  padding-bottom: 3.2px;
   border-bottom: 1px solid transparent;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
