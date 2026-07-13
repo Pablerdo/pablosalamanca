@@ -48,6 +48,7 @@
   overflow: hidden;
   position: relative;
   flex-shrink: 0;
+  margin-top: 8px;
   box-shadow: 0 3.2px 11.2px rgba(0, 0, 0, 0.15);
 }
 
@@ -75,6 +76,10 @@
   font-size: 1.2em;
   line-height: 1.75;
   margin: 19.2px 0 25.6px 0;
+}
+
+.Bio-left .Bio-text:first-child {
+  margin-top: 0;
 }
 
 .Bio-inline-link {
@@ -128,6 +133,11 @@
     flex-direction: column-reverse;
     align-items: flex-start;
     gap: 16px;
+  }
+
+  .profile-image-frame {
+    width: 100%;
+    max-width: 374.4px;
   }
 }
 

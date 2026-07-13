@@ -1,6 +1,7 @@
 import Nav from '../components/Nav';
 import pabloAndNing from '../assets/photos/PabloAndNing.jpg';
 import pikesPeak from '../assets/photos/PikesPeak.png';
+import graduation from '../assets/photos/Graduation.jpg';
 import freshmanYear from '../assets/photos/FreshmanYear.jpg';
 import pabloAtNurburgring from '../assets/photos/PabloAtNurburgring.PNG';
 
@@ -12,6 +13,10 @@ const photos = [
   {
     src: pikesPeak,
     caption: 'Pikes Peak, Philadelphia to Los Angeles in a summer.',
+  },
+  {
+    src: graduation,
+    caption: 'Graduation.',
   },
   {
     src: pabloAtNurburgring,
