@@ -113,11 +113,11 @@ export default function Home() {
 
             <div className="Paper-item">
               <p className="Paper-title-text">
-                <a className="Bio-inline-link" href="https://arxiv.org/abs/2604.21915" target="_blank" rel="noreferrer">
-                  Vista4D: Video Reshooting with 4D Point Clouds
+                <a className="Bio-inline-link" href="https://arxiv.org/abs/2607.22830" target="_blank" rel="noreferrer">
+                  ID-V2V: Identity-Preserving Video Restylization
                 </a>
               </p>
-              <p className="Paper-meta">K.H. Lin, Z. Liu, P. Salamanca, Y. Kant, R. Burgert, Y. Xu, K. Namekata, Y. Zhao, et al. — CVPR 2026</p>
+              <p className="Paper-meta">Y. Xu, M. He, P. Salamanca, L. Ma, Y. Kant, E. Steven, P. Debevec, N. Yu — SIGGRAPH Asia 2026</p>
             </div>
 
             <div className="Paper-item">
@@ -126,7 +126,16 @@ export default function Home() {
                   DiffHDR: Re-Exposing LDR Videos with Video Diffusion Models
                 </a>
               </p>
-              <p className="Paper-meta">Z. Yu, L. Ma, M. He, L. Isikdogan, Y. Xu, D. Smirnov, P. Salamanca, D. Mi, et al. — arXiv, 2026</p>
+              <p className="Paper-meta">Z. Yu, L. Ma, M. He, L. Isikdogan, Y. Xu, D. Smirnov, P. Salamanca, D. Mi, et al. — ECCV 2026</p>
+            </div>
+
+            <div className="Paper-item">
+              <p className="Paper-title-text">
+                <a className="Bio-inline-link" href="https://arxiv.org/abs/2604.21915" target="_blank" rel="noreferrer">
+                  Vista4D: Video Reshooting with 4D Point Clouds
+                </a>
+              </p>
+              <p className="Paper-meta">K.H. Lin, Z. Liu, P. Salamanca, Y. Kant, R. Burgert, Y. Xu, K. Namekata, Y. Zhao, et al. — CVPR 2026</p>
             </div>
           </div>
         </div>
